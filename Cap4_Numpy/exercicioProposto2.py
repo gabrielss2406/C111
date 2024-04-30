@@ -4,6 +4,7 @@ import numpy as np
 # Multiplique valores por 100 e crie um novo vetor com a parte inteira
 np.random.seed(5)
 arr = np.random.randn(10)
+print(arr)
 arr = arr*100
 new_arr = arr[arr>=0]
 print(f"Novo vetor com a parte inteira {new_arr}")
