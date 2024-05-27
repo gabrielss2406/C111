@@ -1,6 +1,6 @@
 import numpy as np
 
-dataset = np.loadtxt('./Prova1_Treino/paises.csv', delimiter=';', dtype=str, encoding='utf-8')
+dataset = np.loadtxt('./Datasets/paises.csv', delimiter=';', dtype=str, encoding='utf-8')
 
 # 1. Faça um slicing no dataset pegando certas colunas
 sliced = dataset[1:, :4]

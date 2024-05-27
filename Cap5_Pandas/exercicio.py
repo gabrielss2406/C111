@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('./Cap5_Pandas/paises.csv', delimiter=';')
+df = pd.read_csv('./Datasets/paises.csv', delimiter=';')
 
 # 1
 oceania_df = df[df['Region'].str.contains('OCEANIA')]

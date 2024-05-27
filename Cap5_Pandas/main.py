@@ -27,7 +27,7 @@ print(df.loc[['B','C'], ['X','Y','Z']])
 print(df.iloc[1:, :])
 
 # lendo
-df = pd.read_csv('./Cap5_Pandas/paises.csv', delimiter=';')
+df = pd.read_csv('./Datasets/paises.csv', delimiter=';')
 print(df.columns)
 print(df['Country'])
 print(df.head(3))
